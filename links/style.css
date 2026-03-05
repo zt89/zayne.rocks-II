@@ -28,7 +28,6 @@
   --breakpoint-xl: 1200px;
 }
 
-
 *,
 *::before,
 *::after {
@@ -3220,7 +3219,6 @@ fieldset:disabled a.btn {
   display: block;
   width: 100%;
 }
-
 
 
 
