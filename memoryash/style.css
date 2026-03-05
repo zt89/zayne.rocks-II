@@ -135,7 +135,7 @@ p {
   text-shadow: 1.5px 1.5px 0px #0E0312;
 }
 .navbar-dark {
-    background-color: rgba(14, 3, 18, 0.3)!important;
+    background-color: rgba(14, 3, 18, 0)!important;
     border: none !important;
     border-width:0!important;
 }
@@ -3221,6 +3221,7 @@ fieldset:disabled a.btn {
 }
 
 
+
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }
@@ -3451,6 +3452,7 @@ input[type="button"].btn-block {
 .dropdown-menu[x-placement^="top"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"] {
   right: auto;
   bottom: auto;
+
 
 }
 
@@ -4454,8 +4456,8 @@ input[type="button"].btn-block {
 
 .navbar-text {
   display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .navbar-collapse {
@@ -4586,7 +4588,7 @@ input[type="button"].btn-block {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -4596,8 +4598,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.89rem;
+    padding-left: 0.89rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
@@ -4605,7 +4607,6 @@ input[type="button"].btn-block {
     flex-wrap: nowrap;
   }
   .navbar-expand-lg .navbar-collapse {
-    display: inline-block;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
@@ -7176,6 +7177,7 @@ button.bg-dark:focus {
 .embed-responsive {
   position: relative;
   display: block;
+
 
   width: 100%;
   padding: 0;
@@ -11051,6 +11053,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-top:3px solid transparent;
     border-radius:50%;
     border-color:#000 #000 transparent transparent;
+
     border-style:solid;
     border-width:3px;
     width:15px;
